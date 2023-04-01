@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea {
+    flex: 1;
+    padding: 1em;
+    min-height: 4em;
+    font-size: medium;
+    display: none;
+}
+
+pre {
+    display: none;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+
+  .button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+  .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  .counter-row {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .repo-row {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .countdown {
+    padding-left: 5px;
+  }
+
+  .button-row {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #accuracy {
+    display: inline-block;
+    margin-left: 10px; /* optional - adjust as needed */
+  }
+  
+  #time {
+    display: inline-block;
+    margin-left: 10px; /* optional - adjust as needed */
+  }
+
+  #repoName {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  #repoUrl {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }

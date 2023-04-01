@@ -1,0 +1,26 @@
+{
+  "name": "codetypingtest",
+  "version": "1.0.0",
+  "description": "A text app web app that measures your accuracy and speed when typing code",
+  "main": "main.js",
+  "source": "src/index.html",
+  "browserlist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "type": "module",
+  "author": "Ricardo Sanchez",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/plugin-throttling": "^5.0.1",
+    "highlight.js": "^11.7.0",
+    "octokit": "^2.0.14"
+  },
+  "devDependencies": {
+    "@types/highlight.js": "^10.1.0",
+    "buffer": "^5.7.1",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  }
+}

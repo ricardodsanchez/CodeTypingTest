@@ -1,13 +1,35 @@
-# CodeTypingTest
-A simple typing code game written in TypeScript. It also uses the Octokit API.
+# Code Typing Game
 
-The app has one button. Once you click it to start the game, a call to the Octokit API will return the sample code from GitHub.
-At this point, a text input component will be visible. After you click on it to start typing, a countdown will begin and stop after 10 seconds. The goal is to type the same code shown in this box and do it as fast as possible. Once the countdown ends, you'll get a number representing accuracy and completeness.
+A simple web-based typing game that allows users to practice their coding skills by typing randomly-selected code snippets within a time limit.
 
-## Running it locally
+## Features
 
-- Clone the repo
-- Get a personal GitHub token to access the Octokit API
-- Add your personal token to `process.env.OCTOKIT_API_KEY` 
-- run `npm i`
-- run `npx parcel src/index.html`
+- Fetches random code snippets from GitHub
+- Displays a countdown timer for the user to complete the typing challenge
+- Calculates and displays the user's accuracy and time taken to type the code snippet
+- Implements a rate-limiting mechanism for the GitHub API to avoid quota exhaustion
+
+## Setup
+
+1. Clone the repository: `git clone https://github.com/ricardodsanchez/code-typing-game.git`
+
+2. Open the index.html file in your favorite web browser.
+
+## Usage
+
+1. Click the "Start Game" button to fetch a random code snippet.
+2. Start typing the code snippet in the provided text area.
+3. The countdown timer will start as soon as you start typing.
+4. Try to type the entire code snippet before the timer reaches zero.
+5. The game will display your accuracy and time taken to type the code snippet once you complete it or when the time runs out.
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Commit and push your changes to your branch.
+4. Open a pull request with a description of the changes you've made.
+
+## License
+
+MIT

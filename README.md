@@ -13,7 +13,14 @@ A simple web-based typing game that allows users to practice their coding skills
 
 1. Clone the repository: `git clone https://github.com/ricardodsanchez/code-typing-game.git`
 
-2. Open the index.html file in your favorite web browser.
+2. In VS Code, type the following in terminal window:
+`npx parcel src/index.html`
+
+`npx`: is a command-line tool that comes with npm. It is used to execute a package without installing it globally, making it easier to run packages that are installed locally within a project.
+
+`parcel`: Parcel is a web application bundler that bundles web assets like HTML, CSS, JavaScript, and images. It handles dependency management, optimization of bundled assets for production, and features a zero-configuration approach.
+
+`src/index.html`: This is the entry point of your web application. It is the main HTML file from which your application starts. The src folder typically contains the source code for your web application, including HTML, CSS, JavaScript, and other assets.
 
 ## Usage
 
